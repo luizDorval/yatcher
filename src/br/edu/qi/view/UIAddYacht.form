@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="bgType">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="closable" type="boolean" value="true"/>
+    <Property name="iconifiable" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jlpActions" min="-2" pref="623" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jlpData" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jlpData" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jlpActions" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JLayeredPane" name="jlpData">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+            <MatteColorBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jlMaterial" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlImo" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlModel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlColor" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="jtColor" alignment="0" pref="125" max="32767" attributes="0"/>
+                                  <Component id="jtModel" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jtImo" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <Component id="jtMaterial" min="-2" pref="124" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jlWidth" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlHeight" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlWeight" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlType" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="jrVela" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jrMotor" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jtWeight" pref="124" max="32767" attributes="0"/>
+                                  <Component id="jtHeight" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="jtWidth" alignment="1" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jlErrorColor" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlErrorImo" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlErrorModel" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlErrorMaterial" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jlErrorWidth" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlErrorHeight" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlErrorWeight" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlErrorType" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jlImo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jtImo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlErrorImo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jlModel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jtModel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlErrorModel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jlColor" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jtColor" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlErrorColor" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jtMaterial" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlMaterial" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlErrorMaterial" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jlWidth" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jtWidth" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlErrorWidth" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jtHeight" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlHeight" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlErrorHeight" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jtWeight" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlWeight" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlErrorWeight" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jlType" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jrVela" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jrMotor" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlErrorType" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="15" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jlModel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Modelo"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlColor">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cor"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlType">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tipo"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtModel">
+          <Events>
+            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jtModelFocusLost"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jtModelKeyPressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtColor">
+          <Events>
+            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jtColorFocusLost"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jtColorKeyPressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jrVela">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="bgType"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="A vela"/>
+            <Property name="actionCommand" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="&quot;A vela&quot;" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jrVelaKeyPressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jrMotor">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="bgType"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Motorizado"/>
+            <Property name="actionCommand" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="&quot;Motorizado&quot;" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jrMotorFocusLost"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jrMotorKeyPressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlImo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="IMO"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtImo">
+          <Events>
+            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jtImoFocusLost"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jtImoKeyPressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtWidth">
+          <Events>
+            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jtWidthFocusLost"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jtWidthKeyPressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtMaterial">
+          <Events>
+            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jtMaterialFocusLost"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jtMaterialKeyPressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtHeight">
+          <Events>
+            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jtHeightFocusLost"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jtHeightKeyPressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlMaterial">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Material"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtWeight">
+          <Events>
+            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jtWeightFocusLost"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jtWeightKeyPressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlWidth">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Largura(P&#xe9;s)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlHeight">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Altura(P&#xe9;s)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlWeight">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Peso(Kg)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlErrorImo">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlErrorModel">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlErrorColor">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlErrorMaterial">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlErrorWidth">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlErrorHeight">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlErrorWeight">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlErrorType">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JLayeredPane" name="jlpActions">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+            <MatteColorBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                  <Component id="jbRegister" min="-2" pref="122" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jbClear" min="-2" pref="123" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                  <Component id="jlIcon" min="-2" pref="278" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="83" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jbClear" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jbRegister" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="56" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jlIcon" min="-2" pref="317" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="jbRegister">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cadastrar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbRegisterActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jbClear">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Limpar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbClearActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlIcon">
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

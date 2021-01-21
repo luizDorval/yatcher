@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <Properties>
+    <Property name="closable" type="boolean" value="true"/>
+    <Property name="iconifiable" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jlpData" max="32767" attributes="0"/>
+                  <Component id="jlpActions" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jlpData" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jlpActions" max="32767" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JLayeredPane" name="jlpData">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+            <MatteColorBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jlEmail" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlPhoneNumber" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlCpf" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlAge" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlName" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jtPhoneNumber" max="32767" attributes="0"/>
+                      <Component id="jtCpf" max="32767" attributes="0"/>
+                      <Component id="jtEmail" max="32767" attributes="0"/>
+                      <Component id="jtName" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jtAge" min="-2" pref="120" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="jlErrorPhoneNumber" alignment="0" pref="117" max="32767" attributes="0"/>
+                      <Component id="jlErrorName" max="32767" attributes="0"/>
+                      <Component id="jlErrorAge" max="32767" attributes="0"/>
+                      <Component id="jlErrorCpf" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jlErrorEmail" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="jlErrorName" min="-2" pref="20" max="-2" attributes="0"/>
+                          <EmptySpace min="6" max="32767" attributes="0"/>
+                          <Component id="jlErrorCpf" min="-2" pref="20" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jlName" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jtName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jtCpf" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlCpf" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                          <Component id="jtEmail" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlEmail" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jlErrorEmail" alignment="1" min="-2" pref="20" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                          <Component id="jtPhoneNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlPhoneNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jlErrorPhoneNumber" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                          <Component id="jtAge" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlAge" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jlErrorAge" min="-2" pref="20" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jlName">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nome"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlCpf">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="CPF"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlEmail">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="E-mail"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlPhoneNumber">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Telefone"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlAge">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Idade"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtName">
+          <Events>
+            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jtNameFocusLost"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jtNameKeyPressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtCpf">
+          <Events>
+            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jtCpfFocusLost"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jtCpfKeyPressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtEmail">
+          <Events>
+            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jtEmailFocusLost"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jtEmailKeyPressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtPhoneNumber">
+          <Events>
+            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jtPhoneNumberFocusLost"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jtPhoneNumberKeyPressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtAge">
+          <Events>
+            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jtAgeFocusLost"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jtAgeKeyPressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlErrorName">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlErrorCpf">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlErrorEmail">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlErrorPhoneNumber">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlErrorAge">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JLayeredPane" name="jlpActions">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+            <MatteColorBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="111" max="-2" attributes="0"/>
+                  <Component id="jbRegister" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="159" max="32767" attributes="0"/>
+                  <Component id="jbClear" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="139" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jbRegister" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jbClear" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="jbRegister">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cadastrar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbRegisterActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jbClear">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Limpar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbClearActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
