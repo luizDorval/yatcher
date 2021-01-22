@@ -9,7 +9,11 @@ Yachter - Your Yacht Manager
 <p align="center">A yachts CRUD system made for an course i've attend to.</p>
 <p align="center">He uses some old features, but I learned so much from him that I can't leave him out of my github.</p>
 
-
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
+  </a>
+</p>
 
 [//]: # (Add your gifs/images here:)
 <div>
@@ -34,3 +38,7 @@ This app features OOP, Unit Testing, MVC and some Regex.
 2 - Run the .jar file in dist dir.
 
 3 - Enjoy!
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
