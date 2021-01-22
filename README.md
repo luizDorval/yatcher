@@ -1,9 +1,9 @@
 <h1 align="center">
 <br>
-  <img src="./images/readmeIcon.png" alt="Yachter - Your Yacht Manager" width="120">
+  <img src="./images/readmeIcon.png" alt="Yachter" width="120">
 <br>
 <br>
-Yachter - Your Yacht Manager
+Yachter
 </h1>
 
 <p align="center">A yachts CRUD system made for an course i've attend to.</p>
